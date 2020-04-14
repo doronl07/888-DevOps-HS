@@ -27,7 +27,7 @@ This assignment build from 3 tasks (Windows, Linux, Docker). To complete this as
 - Install dns service and create new zone(you can choose any domain name that you want)
 - Add a small exe file or a an image to the web site you created and download it. Record(sniff) the download session into a pcap file.
 - Filter the download session from the pcap file and create a screenshot, describe the communication steps steps in the session
-- Write a script that read the IIS log file, parse it and write into a csv file the date, time, s-ip, cs-uri-query, sc-status
+- Write a script that read the Apache\Ngninx log file, parse it and write into a csv file the date, time, s-ip, cs-uri-query, sc-status
 
 
 **Login details for Linux predeployed OVA - Username: osboxes | Password: osboxes.org | Root Account Password: osboxes.org**
