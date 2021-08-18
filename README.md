@@ -44,9 +44,9 @@ First Part
 - Please write a script to monitor the notepad process. 
 - The script will create a CSV file with 2 headers, "Date" & "Message"
 - Checks if the process for notepad is running 
--    Process is running - Write the current hour, minute & second into the csv file.
+-- Process is running - Write the current hour, minute & second into the csv file.
      and the message "Notepad is running"
--    Process is not running - Start the notepad process (only if we are not under maintenance mode), write the current hour, minute & second into the csv file and the message "Notepad was started".
+-- Process is not running - Start the notepad process (only if we are not under maintenance mode), write the current hour, minute & second into the csv file and the message "Notepad was started".
 
 -	Checks if a file maintenance exists.
 - Fie Exists - write the current hour, minute & second into the csv file.
