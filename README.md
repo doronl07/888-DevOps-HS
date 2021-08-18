@@ -73,6 +73,6 @@ Bonus:
 
 ## Docker Task
 -	create a docker file to install linux server with nginx
-- change the default port to 8080
-- copy your git repository into the docker 
-- create an image out of it
+  - change the default port to 8080
+  - copy your git repository into the docker 
+  - create an image out of it
