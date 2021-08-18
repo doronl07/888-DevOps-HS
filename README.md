@@ -23,14 +23,14 @@ This assignment contains different tasks. (Git, Ansible, Powershell, Windows, Do
 
 machines can be set up in any cloud, hyper-v, vagrant or any other platform that you find it suitable
 
-- Install the ansible on the ansible server (Manually)
-- Build an inventory with 2 groups [win] & [linux] 
-- Using ansible, please Install apache on the Linux machine and IIS on the window machine.
-    Using ansible, change httpd.conf to listen only on port 8080
-- Create a test website on the IIS on port 80 using ansible (note: ansible has modules)
-- Create an empty test.txt file on the ansible machine. Copy the test.txt file to the root site on both machines
+1. Install the ansible on the ansible server (Manually)
+2. Build an inventory with 2 groups [win] & [linux] 
+3. Using ansible, please Install apache on the Linux machine and IIS on the window machine.
+   Using ansible, change httpd.conf to listen only on port 8080
+4. Create a test website on the IIS on port 80 using ansible (note: ansible has modules)
+5. Create an empty test.txt file on the ansible machine. Copy the test.txt file to the root site on both machines
     (Bonus: Create another file called default.html. Using Jinja, input into it the date_time (can be taken from ansible facts) and copy it to the root site on both machines.)
-- Recycle the app pool of the new test website using ansible
+6. Recycle the app pool of the new test website using ansible
 
 Tip:
 -	Use only ansible and ansible modules. 😊
@@ -63,15 +63,15 @@ Bonus:
 -	Show via some GUI all the relevant lines from the CSV.
 -	Give the user an option to choose some lines and save them into a separate file.
 
-## Windows Task
--	Create a new https binding on port 443 to your web site 
--	Create a self-signed certificate and bind it to your web site
--	Install dns service and create new zone (you can choose any domain name that you want)
--	add a record to point the local web server you created in bullet 1, also make sure to create a record to perform dns reverse lookup
--	publish a small exe file via the web site you created download it. Record (sniff) the download session into a pcap file.
--	filter the download session from the pcap file and create a screenshot, describe the communication step by step in the session
+## Windows
+1. Create a new https binding on port 443 to your web site 
+2. Create a self-signed certificate and bind it to your web site
+3. Install dns service and create new zone (you can choose any domain name that you want)
+4. add a record to point the local web server you created in bullet 1, also make sure to create a record to perform dns reverse lookup
+5. publish a small exe file via the web site you created download it. Record (sniff) the download session into a pcap file.
+6. filter the download session from the pcap file and create a screenshot, describe the communication step by step in the session
 
-## Docker Task
+## Docker
 - create a docker file to install linux server with nginx
   - change the default port to 8080
   - copy your git repository into the docker 
