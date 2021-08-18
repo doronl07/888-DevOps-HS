@@ -7,7 +7,7 @@ This is the hiring assignment for Devops candidates at. It’s intended to mimic
 -	Networking
 -	Docker
 ## How to answer this assignment
-This assignment contains Different tasks. (Git, Ansible, Powershell, Windows, Docker). To complete this assignment successfully, you'll need to attempt to complete Git, Ansible and PowerShell tasks, the rest are bonus.
+This assignment contains different tasks. (Git, Ansible, Powershell, Windows, Docker). To complete this assignment successfully, you'll need to attempt to complete Git, Ansible and PowerShell tasks, the rest are bonus.
 ## Git ##
 1.  create a user in github if you dont have already
 2.  create a new repository
