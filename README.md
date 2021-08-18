@@ -39,17 +39,18 @@ Tip:
 -	When we want to start a maintenance, we need to create a file under c:\tmp\maintenance.txt
 -	When maintenance is done, file can be removed.
 
-First Part:
+First Part
+
 Please write a script to monitor the notepad process. 
 •	The script will create a CSV file with 2 headers, "Date" & "Message"
 •	Checks if the process for notepad is running 
-  o	Process is running - Write the current hour, minute & second into the csv file.
-    and the message "Notepad is running"
-  o	Process is not running - Start the notepad process (only if we are not under maintenance mode), write the current hour, minute & second into the csv file and the      message "Notepad was started".
+- Process is running - Write the current hour, minute & second into the csv file.
+  and the message "Notepad is running"
+- Process is not running - Start the notepad process (only if we are not under maintenance mode), write the current hour, minute & second into the csv file and the        message "Notepad was started".
 
 •	Checks if a file maintenance exists.
-  o	Fie Exists - write the current hour, minute & second into the csv file.
-  o	Write "We are under maintenance mode!" in the message.
+- Fie Exists - write the current hour, minute & second into the csv file.
+- Write "We are under maintenance mode!" in the message.
 
 -	The script should run for 5 minutes and it should sample the process every 5 seconds.
 
@@ -72,6 +73,6 @@ Bonus:
 
 ## Docker Task
 -	create a docker file to install linux server with nginx
-o	change the default port to 8080
-o	copy your git repository into the docker 
-o	create an image out of it
+- change the default port to 8080
+- copy your git repository into the docker 
+- create an image out of it
