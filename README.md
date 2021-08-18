@@ -17,9 +17,9 @@ This assignment contains Different tasks. (Git, Ansible, Powershell, Windows, Do
 
 ## Ansible ##
 ### Preq
-  - 1 linux server (any distro) for ansible server
-  - 1 centos 7 server
-  - 1 windows server (any version)
+- 1 linux server (any distro) for ansible server
+- 1 centos 7 server
+- 1 windows server (any version)
 
 machines can be set up in any cloud, hyper-v, vagrant or any other platform that you find it suitable
 
