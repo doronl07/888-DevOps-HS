@@ -34,7 +34,7 @@ machines can be set up in any cloud, hyper-v, vagrant or any other platform that
 
 Tip:
 -	Use only ansible and ansible modules. 😊
-## Powershell task
+## Powershell
 -	Notepad is the most important process on our system, and it must be running the whole time, unless we are under maintenance.
 -	When we want to start a maintenance, we need to create a file under c:\tmp\maintenance.txt
 -	When maintenance is done, file can be removed.
