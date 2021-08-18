@@ -72,8 +72,7 @@ Bonus:
 -	filter the download session from the pcap file and create a screenshot, describe the communication step by step in the session
 
 ## Docker Task
--	create a docker file to install linux server with nginx
-  - change the default port to 8080
+- create a docker file to install linux server with nginx
   - change the default port to 8080
   - copy your git repository into the docker 
   - create an image out of it
