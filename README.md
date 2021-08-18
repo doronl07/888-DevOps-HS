@@ -49,8 +49,8 @@ First Part
   - Process is not running - Start the notepad process (only if we are not under maintenance mode), write the current hour, minute & second into the csv file and the message "Notepad was started".
 
 - Checks if a file maintenance exists.
-- Fie Exists - write the current hour, minute & second into the csv file.
-- Write "We are under maintenance mode!" in the message.
+  - Fie Exists - write the current hour, minute & second into the csv file.
+  - Write "We are under maintenance mode!" in the message.
 
 - The script should run for 5 minutes and it should sample the process every 5 seconds.
 
