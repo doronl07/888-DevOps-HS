@@ -9,11 +9,11 @@ This is the hiring assignment for Devops candidates at. It’s intended to mimic
 ## How to answer this assignment
 This assignment contains different tasks. (Git, Ansible, Powershell, Windows, Docker). To complete this assignment successfully, you'll need to attempt to complete Git, Ansible and PowerShell tasks, the rest are bonus.
 ## Git ##
-1.  create a user in github if you dont have already
-2.  create a new repository
-3.  clone it to your local machine
-4.  create a new remote branch called 888holdings using git command line
-5.  upload your code and files into the remote branch (using git commands) and share the link with us
+1.  Create a user in github if you dont have already
+2.  Create a new repository
+3.  Clone it to your local machine
+4.  Create a new remote branch called 888holdings using git command line
+5.  Upload your code and files into the remote branch (using git commands) and share the link with us
 
 ## Ansible ##
 ### Preq
