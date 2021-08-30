@@ -28,15 +28,15 @@ machines can be set up in any cloud, hyper-v, vagrant or any other platform that
 3. Using ansible, if it's a linux machine, please Install apache and if it's a windows machine, please install IIS.
 4. Using Jinja file, please change httpd.conf to listen only on port 8080.
 4. Create a test website on the IIS on port 80 using ansible (note: ansible has modules).
-5. Create an empty test.txt file on the ansible machine. Copy the test.txt file to the root site on both machines
-    (Bonus: Create another file called default.html. Using Jinja, input into it the date_time (can be taken from ansible facts) and copy it to the root site on both machines.).
+5. Create an empty test.txt file on the ansible machine. Copy the test.txt file to the root site on both machines.
 6. Recycle the app pool of the new test website using ansible.
 
 Tip:
 -	Use only ansible and ansible modules. 😊
 
 Bonus:
--   encrypt the local linux and windows users with vault.
+-   Create a default.html file. Using Jinja, input into it the date_time (can be taken from ansible facts) and copy it to the root site on both Linux and Windown machines.
+-   Encrypt the local linux and windows users with vault.
 
 ## Powershell
 -	Notepad is the most important process on our system, and it must be running the whole time, unless we are under maintenance.
