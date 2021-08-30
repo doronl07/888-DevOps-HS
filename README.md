@@ -36,6 +36,7 @@ Tip:
 
 Bonus:
 -   Create a default.html file. Using Jinja, input into it the date_time (can be taken from ansible facts) and copy it to the root site on both Linux and Windown machines.
+-   Browse the file and make sure you get the date and time correctly
 -   Encrypt the local linux and windows users with vault.
 
 ## Powershell
