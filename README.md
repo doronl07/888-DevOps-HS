@@ -54,9 +54,10 @@ First Part
      and the message "Notepad is running".
   - Process is not running - 
     - In case we are not under maintenance, start the notepad process and write the current hour, minute & second into the csv file and the message "Notepad was started". 
-    - case we are under maintenance, write the current hour, minute & second into the csv file and the message "We are under maintenance mode!"
+    - In case we are under maintenance, write the current hour, minute & second into the csv file and the message "We are under maintenance mode!"
 
 - To check if we are under maintenance - you'll need to checks if a file maintenance exists.
+- Message time format should be DD-MM-YYYY HH:MM
 
 - The script should run for 5 minutes and it should sample the process every 5 seconds.
 
