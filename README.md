@@ -21,7 +21,7 @@ This assignment contains different tasks. (Git, Ansible, Powershell, Windows, Do
 - 1 centos 7 server.
 - 1 windows server (any version).
 
-machines can be set up in any cloud, hyper-v, vagrant or any other platform that you find it suitable.
+Machines can be set up in any cloud, hyper-v, vagrant or any other platform that you find it suitable.
 
 1. Install the ansible on the ansible server (Manually).
 2. Build an inventory with 2 groups [win] & [linux].
@@ -43,18 +43,18 @@ Bonus:
 -	Notepad is the most important process on our system, and it must be running the whole time, unless we are under maintenance.
 -	When we want to start a maintenance, we need to create a file under c:\tmp\maintenance.txt.
 -	When maintenance is done, file can be removed.
--	starting and stopping maintenance is done manually by the sysadmin.
+-	Starting and stopping maintenance is done manually by the sysadmin.
 
 First Part
 
 - Please write a script to monitor the notepad process.
 - The script will create a CSV file with 2 headers, "Date" & "Message".
 - Checks if the process for notepad is running.
-  - Process is running - Write the current hour, minute & second into the csv file,
+  - Process is running - Write the time into the csv file,
      and the message "Notepad is running".
   - Process is not running - 
-    - In case we are not under maintenance, start the notepad process and write the current hour, minute & second into the csv file and the message "Notepad was started". 
-    - In case we are under maintenance, write the current hour, minute & second into the csv file and the message "We are under maintenance mode!"
+    - In case we are not under maintenance, start the notepad process and write the time into the csv file and the message "Notepad was started". 
+    - In case we are under maintenance, write the time into the csv file and the message "We are under maintenance mode!"
 
 - To check if we are under maintenance - you'll need to checks if a file maintenance exists.
 - Message time format should be DD-MM-YYYY HH:MM
