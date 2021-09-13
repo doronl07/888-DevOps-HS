@@ -52,7 +52,9 @@ First Part
 - Checks if the process for notepad is running.
   - Process is running - Write the current hour, minute & second into the csv file,
      and the message "Notepad is running".
-  - Process is not running - In case we are not under maintenance, start the notepad process and write the current hour, minute & second into the csv file and the message "Notepad was started". case we are under maintenance, write the current hour, minute & second into the csv file and the message "We are under maintenance mode!"
+  - Process is not running - 
+   - In case we are not under maintenance, start the notepad process and write the current hour, minute & second into the csv file and the message "Notepad was started". 
+   - case we are under maintenance, write the current hour, minute & second into the csv file and the message "We are under maintenance mode!"
 
 - To check if we are under maintenance - you'll need to checks if a file maintenance exists.
 
