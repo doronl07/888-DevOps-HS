@@ -27,7 +27,7 @@ To complete this assignment successfully, you'll need to perform all the tasks b
 
 ## Scripting
   Use any preferd scripting lanuguage (Prefered: Python or Powershell) to perform the following:
-   - write a script that accepts the following parameters: --breed; --list; --count; --image
+   - Read the the Dog API(https://dog.ceo/dog-api/) and write a script that can query the API and accepts the following parameters: --breed; --list; --count; --image
    
      --breed - [string] breed name (**mandatory**)
      
