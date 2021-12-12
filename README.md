@@ -17,7 +17,7 @@ To complete this assignment successfully, you'll need to perform all the tasks b
 ## Windows
 
   - Build a Windows server (you can download predeployed windows 2016 ova from here: http://tinyurl.com/sol9vhc)
-  - write Ansible playbook to execute the following, and upload it to your git repo:
+  - Write Ansible playbook to execute the following, and upload it to your git repo:
       * Install IIS and create a site which serves HTML page with "Hello World"
       * Create a self-signed certificate and bind it to the site you created in the previous bullet on port 443
       * Install dns service and create new zone(you can choose any domain name that you want)
