@@ -28,10 +28,11 @@ To complete this assignment successfully, you'll need to perform all the tasks b
 ## Scripting
   Use any preferd scripting lanuguage (Prefered: Python or Powershell) to perform the following:
    - write a script that accepts the following parameters: --breed; --list; --count; --image
-   - --breed - [string] get breed name *mandatory*
+     --breed - [string] get breed name *mandatory*
      --list - [boolean] return the list of sub-breed  
      --count - [boolean] return count of sub-breed 
      --image - Download random image of the breed 
+     
    - upload the script to your git repo 
      
 ## Docker
