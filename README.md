@@ -45,6 +45,3 @@ To complete this assignment successfully, you'll need to perform all the tasks b
 - Change the default port to 8080.
 - Create an image out of it.
 - Upload your docker script to your Git repo
-
-
-**Login details for Linux predeployed OVA - Username: osboxes | Password: osboxes.org | Root Account Password: osboxes.org**
