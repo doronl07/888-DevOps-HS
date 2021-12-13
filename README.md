@@ -26,7 +26,7 @@ To complete this assignment successfully, you'll need to perform all the tasks b
   - Filter the download session from the pcap file and create a screenshot, describe the communication steps steps in the session
 
 ## Scripting
-  Use any preferd scripting lanuguage (Prefered: Python or Powershell) to perform the following:
+  Use any scripting lanuguage (Prefered: Python or Powershell) to perform the following:
    - Read the the Dog API(https://dog.ceo/dog-api/) and write a script that can query the API and accepts the following parameters: --breed; --list; --count; --image
    
      --breed - [string] breed name (**mandatory**)
